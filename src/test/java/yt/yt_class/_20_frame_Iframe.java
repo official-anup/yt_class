@@ -36,7 +36,9 @@ public class _20_frame_Iframe
 		
 //		///////////////////////////////////////////////////
 	
-		// 1. switch to iframe by web element 
+		// 1. switch to iframe by web element
+		
+		
         WebElement frameElement = driver.findElement(By.id("courses-iframe"));
 		
         //2.
