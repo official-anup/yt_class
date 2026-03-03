@@ -43,18 +43,18 @@ public class _21_scrolling
 		
 		// //////////////////////////////
 		
-		// horizontal scroll
+		// horizontal scroll or we can do this with an element,if we have something in right or left side
 		driver.get("https://www.tutorialspoint.com/selenium/practice/horizontal-scroll.php");
 		// Locate the horizontal scroll container
 		WebElement scrollDiv = driver.findElement(By.className("horizan-scroll"));
-
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-
 		Thread.sleep(4000);
 		// Scroll fully to the RIGHT
-		js.executeScript("arguments[0].scrollLeft = arguments[0].scrollWidth;", scrollDiv);
-
+		js.executeScript("arguments[0].scrollLeft = arguments[0].scrollWidth;", scrollDiv); // i don't find anything in righ 
+//		side so i used this otherwise i cound have used below thing 
+//		js.executeScript("arguments[0].scrollIntoView();",scrollDiv); // this thing
 		Thread.sleep(4000);
+		
 	}
 
 }
