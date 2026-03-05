@@ -1,22 +1,30 @@
-package yt.yt_class;
+package TestNG;
 
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class _26_TestNG_intro 
+public class _26_TestNg_Assert 
 {
-
-	public static void main(String args[]) throws InterruptedException 
+	@Test
+	public void testTitle()
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		
+		driver.get("https://www.google.com");
+		String expTitle="Google";
+		String actTitle=driver.getTitle();
+		Assert.assertEquals(expTitle,actTitle);
+		
 		
 	}
+
 }
