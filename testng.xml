@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- use parallel just 33 file ie parallel method 
+otherwise comment this and use normal-->
+<!--
+<suite name="Suite" parallel="methods" thread-count="2">
+-->
+
+
+<!-- this is normal-->
 <suite name="Suite">
+
+<!--// ///////////////////////////////////////  -->
+<!-- this is for listerner-->
+<!-- 
+<listeners>
+   <listener class-name="TestNG.listerner_for_34"></listener>
+</listeners>
+-->
+<!--// ///////////////////////////////////////  -->
+
+   
+   <!--  this is for 31 file-->
+   <!-- 
+   <parameter name="i" value="1"></parameter>
+   <parameter name="j" value="2"></parameter>
+   
+   <parameter name="y" value="3"></parameter>
+   <parameter name="z" value="4"></parameter>
+-->
+
+
+
   <test thread-count="5" name="Test">
   
   <!-- 
@@ -15,15 +46,72 @@
     
     <!-- <class name="yt.yt_class.AppTest"/>-->
     <!-- <class name="TestNG._26_TestNg_Assert"/>-->
+    
+    <!-- //////////////////////////////////////-->
+    <!-- use this in below class 
+    <include name="AutomobileLoanMobileLogin"></include>
+    -->
+    <!-- 
     <class name="TestNG._27_enable_disable_regular_expression">
        <methods>
-          <!-- <include name="AutomobileLoanMobileLogin"></include>-->
-       <!-- <exclude name=""></exclude> -->
+          
        </methods>
     </class>  
-      
-    <class name="TestNG._29_Annotations"></class>
-    </classes>
     
+    -->
+    
+     <!-- //////////////////////////////////////-->
+     
+        
+      <!-- 
+    <class name="TestNG._29_Annotations"></class>
+    -->
+    
+    <!-- uncooment this when want to run this file
+    <class name="TestNG._30_attributes"></class>
+    
+    -->
+    
+      <!-- //////////////////////////////////////-->
+      
+    <!-- for paramter testing-->
+    <!-- 
+      <class name="TestNG._31_parameters"></class>
+     -->
+             
+ <!-- //////////////////////////////////////-->  
+ <!--  <class name="TestNG._33_parallel_testing"></class>--> 
+
+ <!-- //////////////////////////////////////-->
+ <!-- 
+ <class name="TestNG._34_Listeners"></class>
+ -->
+ <!-- //////////////////////////////////////-->     
+ 
+ 
+   </classes> 
+   
   </test> <!-- Test -->
+  
+  
+  
+  
+  
+     <!-- for 31 exercise-->
+<!--
+  <test thread-count="5" name="Test1">
+     <parameter name="keyword" value="java"></parameter>
+     <classes>
+        <class name="TestNG._31_exercise"></class>
+     </classes>
+  </test>
+  -->
+    <!-- 
+    <test thread-count="5" name="Test2">
+     <parameter name="keyword" value="selenium"></parameter>
+     <classes>
+        <class name="TestNG._31_exercise"></class>
+     </classes>
+  </test>
+  --> 
 </suite> <!-- Suite -->

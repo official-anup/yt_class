@@ -1,78 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-05T11:46:38 IST" name="Suite" finished-at="2026-03-05T11:46:38 IST" duration-ms="220">
+  <suite started-at="2026-03-07T08:14:50 IST" name="Default suite" finished-at="2026-03-07T08:14:50 IST" duration-ms="143">
     <groups>
-      <group name="smoke">
-        <method signature="_27_enable_disable_regular_expression.AutomobileLoanWebLogin()[pri:0, instance:TestNG._27_enable_disable_regular_expression@6025e1b6]" name="AutomobileLoanWebLogin" class="TestNG._27_enable_disable_regular_expression"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-03-05T11:46:38 IST" name="Test" finished-at="2026-03-05T11:46:38 IST" duration-ms="220">
-      <class name="TestNG._27_enable_disable_regular_expression">
-        <test-method signature="AutomobileLoanApiLogin()[pri:0, instance:TestNG._27_enable_disable_regular_expression@6025e1b6]" started-at="2026-03-05T11:46:38 IST" name="AutomobileLoanApiLogin" finished-at="2026-03-05T11:46:38 IST" duration-ms="17" status="PASS">
+    <test started-at="2026-03-07T08:14:50 IST" name="Default test" finished-at="2026-03-07T08:14:50 IST" duration-ms="143">
+      <class name="TestNG._37_invocationCount">
+        <test-method signature="demoTest(org.testng.ITestContext)[pri:0, instance:TestNG._37_invocationCount@51399530]" started-at="2026-03-07T08:14:50 IST" name="demoTest" finished-at="2026-03-07T08:14:50 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a6afff2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AutomobileLoanApiLogin -->
-        <test-method signature="AutomobileLoanMobileLogin()[pri:0, instance:TestNG._27_enable_disable_regular_expression@6025e1b6]" started-at="2026-03-05T11:46:38 IST" name="AutomobileLoanMobileLogin" finished-at="2026-03-05T11:46:38 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- demoTest -->
+        <test-method signature="demoTest(org.testng.ITestContext)[pri:0, instance:TestNG._37_invocationCount@51399530]" started-at="2026-03-07T08:14:50 IST" name="demoTest" finished-at="2026-03-07T08:14:50 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a6afff2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AutomobileLoanMobileLogin -->
-        <test-method signature="AutomobileLoanWebLogin()[pri:0, instance:TestNG._27_enable_disable_regular_expression@6025e1b6]" started-at="2026-03-05T11:46:38 IST" name="AutomobileLoanWebLogin" finished-at="2026-03-05T11:46:38 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- demoTest -->
+        <test-method signature="demoTest(org.testng.ITestContext)[pri:0, instance:TestNG._37_invocationCount@51399530]" started-at="2026-03-07T08:14:50 IST" name="demoTest" finished-at="2026-03-07T08:14:50 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a6afff2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AutomobileLoanWebLogin -->
-      </class> <!-- TestNG._27_enable_disable_regular_expression -->
-      <class name="TestNG._29_Annotations">
-        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="beforeSuit" finished-at="2026-03-05T11:46:38 IST" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuit -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="beforeTest" finished-at="2026-03-05T11:46:38 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="beforeClass" finished-at="2026-03-05T11:46:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="beforeMethod" finished-at="2026-03-05T11:46:38 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="test1" finished-at="2026-03-05T11:46:38 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="afterMethod" finished-at="2026-03-05T11:46:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="beforeMethod" finished-at="2026-03-05T11:46:38 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="test2" finished-at="2026-03-05T11:46:38 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="afterMethod" finished-at="2026-03-05T11:46:38 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="afterClass" finished-at="2026-03-05T11:46:38 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="afterTest" finished-at="2026-03-05T11:46:38 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuit()[pri:0, instance:TestNG._29_Annotations@752325ad]" started-at="2026-03-05T11:46:38 IST" name="afterSuit" finished-at="2026-03-05T11:46:38 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuit -->
-      </class> <!-- TestNG._29_Annotations -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- demoTest -->
+      </class> <!-- TestNG._37_invocationCount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

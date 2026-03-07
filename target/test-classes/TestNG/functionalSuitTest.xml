@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="functionalTestSuit">
+  <test thread-count="5" name="Functional Test" verbose="2">
+    <classes>
+      <class name="TestNG._36_productTest"/>
+      <class name="TestNG._36_Payment"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+
