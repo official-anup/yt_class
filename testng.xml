@@ -12,12 +12,20 @@ otherwise comment this and use normal-->
 <suite name="Suite">
 
 <!--// ///////////////////////////////////////  -->
-<!-- this is for listerner-->
+<!-- this is for listerner  lec 34-->
 <!-- 
 <listeners>
    <listener class-name="TestNG.listerner_for_34"></listener>
 </listeners>
 -->
+
+
+<!-- this is for listerner  lec 41-->
+ 
+<listeners>
+   <listener class-name="TestNG._41_Retry_listner"></listener>
+</listeners>
+
 <!--// ///////////////////////////////////////  -->
 
    
@@ -89,6 +97,13 @@ otherwise comment this and use normal-->
  <!-- //////////////////////////////////////-->     
  
  
+ 
+ <!-- //////////////////////////////////////--> 
+ <!-- for lec 41-->
+     <class name="TestNG._41_Test_failed_cases"></class>
+     
+    
+ 
    </classes> 
    
   </test> <!-- Test -->
@@ -114,4 +129,25 @@ otherwise comment this and use normal-->
      </classes>
   </test>
   --> 
+  
+  
+   <!-- //////////////////////////////////////--> 
+   <!-- for cross browser testing-->
+ <!--  
+   <test name="TestOnFire">
+      <parameter name="browser" value="fire"></parameter>
+       <classes>
+         <class name="TestNG._42_cross_browser_testing"></class>
+       </classes>
+   </test>
+   
+  
+   <test name="TestOnChrome">
+      <parameter name="browser" value="chrome"></parameter>
+       <classes>
+         <class name="TestNG._42_cross_browser_testing"></class>
+       </classes>
+   </test>
+-->
+   
 </suite> <!-- Suite -->
