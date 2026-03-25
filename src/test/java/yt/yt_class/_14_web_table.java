@@ -22,8 +22,10 @@ public class _14_web_table
 		driver.get("https://demoqa.com/webtables");
 		
 		//
-//        String textString=driver.findElement(By.xpath("//table/tbody/tr[1]/td[3]")).getText();
-//		System.out.println(textString);
+        String textString=driver.findElement(By.xpath("//table/tbody/tr[1]/td[3]")).getText();
+		System.out.println(textString);
+		
+	
 		
 		// total row ie tr
 //		List <WebElement> totalRow=driver.findElements(By.xpath("//table/tbody/tr"));

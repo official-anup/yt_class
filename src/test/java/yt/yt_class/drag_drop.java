@@ -4,6 +4,7 @@ import java.awt.Desktop.Action;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -30,11 +31,14 @@ public class drag_drop
 //		
 		
 		// hover 
-		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-	    WebElement hoverElement=driver.findElement(By.id("mousehover"));
-	    Actions action=new Actions(driver);
-	    action.moveToElement(hoverElement).perform();
-	    
+//		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+//	    WebElement hoverElement=driver.findElement(By.id("mousehover"));
+//		JavascriptExecutor js = (JavascriptExecutor) driver;
+//		js.executeScript("arguments[0].scrollIntoView(true);", hoverElement);
+//	    Actions action=new Actions(driver);
+//	    action.moveToElement(hoverElement).perform();
+	
+		System.out.println("done");
 	    
 	}
 

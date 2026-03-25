@@ -37,16 +37,11 @@ public class _20_frame_Iframe
 //		///////////////////////////////////////////////////
 	
 		// 1. switch to iframe by web element
-		
-		
-        WebElement frameElement = driver.findElement(By.id("courses-iframe"));
-		
+        WebElement frameElement = driver.findElement(By.id("courses-iframe"));	
         //2.
         driver.switchTo().frame(frameElement);
-        
         //  3: Now you are inside iframe
         driver.findElement(By.linkText("All Access Plan")).click();
-
         // Step 4: Switch back to main page
 //        driver.switchTo().defaultContent();
 

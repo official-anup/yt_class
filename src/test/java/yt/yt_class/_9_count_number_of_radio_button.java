@@ -22,9 +22,13 @@ public class _9_count_number_of_radio_button
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 	
-		List<WebElement> allRadio=driver.findElements(By.xpath("//input[@type='radio']"));
-	
-		System.out.println("count is :"+allRadio.size());
+//        WebElement element=driver.findElement(By.xpath("//input[@value='radio2']"));
+//        element.click();
+//	
+//		List<WebElement> allRadio=driver.findElements(By.xpath("//input[@type='radio']"));
+//		System.out.println("count is :"+allRadio.size());
+		
+//		driver.close();  // it shows connetion timeout error
 		
 	}
 }

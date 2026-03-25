@@ -29,6 +29,8 @@ public class _12_upload_file
 		driver.findElement(By.xpath("//input[@id='uploadFile']")).sendKeys("C:\\Users\\91766\\Downloads\\www.facebook.com_.png");
 //		
 		
+		
+		
 		// using robot class
 //		WebElement ele = driver.findElement(By.id("uploadFile"));
 //		ele.click();

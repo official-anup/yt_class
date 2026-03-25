@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG._37_invocationCount">
+      <class name="TestNG._32_data_providers">
         <methods>
-          <include name="demoTest" invocation-numbers="0"/>
+          <include name="searchKeywords" invocation-numbers="2"/>
         </methods>
-      </class> <!-- TestNG._37_invocationCount -->
+      </class> <!-- TestNG._32_data_providers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

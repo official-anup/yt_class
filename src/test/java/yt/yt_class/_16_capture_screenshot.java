@@ -25,7 +25,7 @@ public class _16_capture_screenshot
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/locatorspractice");;
 		
-	// // why we convert this
+// // why we convert this
 //		TakesScreenshot ssScreenshot =((TakesScreenshot)driver);
 //		File srcFile= ssScreenshot.getScreenshotAs(OutputType.FILE);
 //		File destFile=new File("C:\\Users\\91766\\Downloads\\FullPage.png");
@@ -34,20 +34,20 @@ public class _16_capture_screenshot
 //		System.out.println("Done !");
 		
 		// // section SS
-//        WebElement sectionElement=driver.findElement(By.cssSelector(".form-container.sign-in-container"));
-//        File srcFile= sectionElement.getScreenshotAs(OutputType.FILE);
-//		File destFile=new File("C:\\Users\\91766\\Downloads\\SectionSS.png");
-// //     copy file to destination
-//		FileUtils.copyFile(srcFile, destFile);
-//		System.out.println("Done !");
+        WebElement sectionElement=driver.findElement(By.cssSelector(".form-container.sign-in-container"));
+        File srcFile= sectionElement.getScreenshotAs(OutputType.FILE);
+		File destFile=new File("C:\\Users\\91766\\Downloads\\SectionSS.png");
+ //     copy file to destination
+		FileUtils.copyFile(srcFile, destFile);
+		System.out.println("Done !");
 		
 		// WebElement SS
-      WebElement sectionElement=driver.findElement(By.xpath("//button[@type='submit']"));
-      File srcFile= sectionElement.getScreenshotAs(OutputType.FILE);
-	  File destFile=new File("C:\\Users\\91766\\Downloads\\WebElementSS.png");
-//     copy file to destination
-	  FileUtils.copyFile(srcFile, destFile);
-	  System.out.println("Done !");
+//      WebElement sectionElement=driver.findElement(By.xpath("//button[@type='submit']"));
+//      File srcFile= sectionElement.getScreenshotAs(OutputType.FILE);
+//	  File destFile=new File("C:\\Users\\91766\\Downloads\\WebElementSS.png");
+// //  //   copy file to destination
+//	  FileUtils.copyFile(srcFile, destFile);
+//	  System.out.println("Done !");
 		
 		
 		

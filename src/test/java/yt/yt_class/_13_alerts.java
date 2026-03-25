@@ -36,6 +36,9 @@ public class _13_alerts
 		driver.switchTo().alert().sendKeys("anup");
 		Thread.sleep(3000);
 	    driver.switchTo().alert().accept();
+		
+		
+
 	
 	
 	}

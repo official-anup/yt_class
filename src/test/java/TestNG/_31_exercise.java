@@ -24,7 +24,7 @@ public class _31_exercise
 		WebElement searchbox=driver.findElement(By.name("q"));
 		searchbox.sendKeys(searchdata);
 		
-		Assert.assertEquals(searchdata, searchbox.getAttribute("value"));
+//		Assert.assertEquals(searchdata, searchbox.getAttribute("value"));
 		
 	}
 

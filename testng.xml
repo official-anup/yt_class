@@ -21,11 +21,11 @@ otherwise comment this and use normal-->
 
 
 <!-- this is for listerner  lec 41-->
- 
+<!-- 
 <listeners>
    <listener class-name="TestNG._41_Retry_listner"></listener>
 </listeners>
-
+-->
 <!--// ///////////////////////////////////////  -->
 
    
@@ -99,9 +99,11 @@ otherwise comment this and use normal-->
  
  
  <!-- //////////////////////////////////////--> 
+ 
  <!-- for lec 41-->
+ <!-- 
      <class name="TestNG._41_Test_failed_cases"></class>
-     
+-->     
     
  
    </classes> 
@@ -112,7 +114,10 @@ otherwise comment this and use normal-->
   
   
   
-     <!-- for 31 exercise-->
+<!-- for 31 exercise
+we use 2 test suit because we used same paramter "keyward" java file ,if we could have used 2 paramters like "keyward1" and "keyward2"
+then we can use this in single in test suit with 2 paramter tags.
+-->
 <!--
   <test thread-count="5" name="Test1">
      <parameter name="keyword" value="java"></parameter>

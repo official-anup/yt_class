@@ -14,9 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class _11_mause_actions 
 
 {
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String args[]) 
 	{
 		WebDriverManager.chromedriver().setup();
@@ -38,12 +36,13 @@ public class _11_mause_actions
 //		act.doubleClick(buttonElement).perform();
 //		System.out.println("clicked");
 		
-		// for double click
-//	driver.findElement(By.xpath("//button[text()='Click Me']")).click();
+		// for simple click
+//	    driver.findElement(By.xpath("//button[text()='Click Me']")).click();
 //		driver.findElement(By.xpath("//button[normalize-space()='Click Me']")).click();
 //		driver.findElement(By.xpath("//button[@class='btn btn-primary' and text()='Click Me']")).click();
 //		System.out.println("clicked");
 		
+
 	}
 
 }

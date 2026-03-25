@@ -14,7 +14,7 @@ public class x_path
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-//		driver.get("https://www.google.com/");
+		driver.get("https://www.google.com/");
 		
 		// relative x-path  and using single attribute ---- By.xpath("//input[@id='username']")
 //		driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("demo search");
@@ -60,7 +60,6 @@ public class x_path
 		
 //		using last(),//tagname[@attribute-type='attributevalue'][last()]
 		// input[@type='text'][last()]
-		
 		
 		
 	}

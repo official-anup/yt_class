@@ -19,12 +19,11 @@ public class _17_open_new_window
 		driver.manage().window().maximize();
 		
 		driver.get("https://demoqa.com/buttons");
-		// oepn new tab
+		// oepn new window
 //		driver.switchTo().newWindow(WindowType.WINDOW);
 		
 		//open new tab
 		driver.switchTo().newWindow(WindowType.TAB);
-		
 		
 		
 		

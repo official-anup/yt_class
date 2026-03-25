@@ -38,7 +38,7 @@ public class _30_attributes
 	@Test(dependsOnMethods = "test1")
 	public void test5() 
 	{
-		System.out.println("Test case 5,for dependsOnGroups");
+		System.out.println("Test case 5,for dependsOnMethods");
 		
 	}
 	
